@@ -6,13 +6,13 @@ import java.awt.event.ActionEvent;
 import java.sql.Date;
 
 public class ClientWindow extends JFrame {
-
     private String clientName = "mr.Anderson";
     private static final int WINDOW_HEIGHT = 555;
     private static final int WINDOW_WIDTH = 555;
     private static final int WINDOW_POSX = 200;
     private static final int WINDOW_POSY = 200;
     static boolean clientStatus = false;
+
     JButton btnSendMsg = new JButton("Send msg");
     JButton btnExitClient = new JButton("SutDown Client");
     JRadioButton onLine;
@@ -22,6 +22,7 @@ public class ClientWindow extends JFrame {
     JTextArea textField;
     JScrollPane txt;
     JPanel inLinePanel;
+
 
 
     ClientWindow(){

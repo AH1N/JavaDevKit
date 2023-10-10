@@ -1,8 +1,12 @@
 package Messenger;
 
+import Messenger.Client.Client;
+import Messenger.Server.Server;
+
 public class Main {
     public static void main(String[] args) {
-        new ServerWindow();
-        new ClientWindow();
+        Server server = new Server();
+        new Client(server, "Mr. Anderson");
+
     }
 }
